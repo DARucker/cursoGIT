@@ -9,8 +9,10 @@ public class WebMain {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Indique su nombre: ");
 		String Nombre = sc.nextLine();
-		return Nombre;
+		System.out.println("Indique su apellido: ");
+		String Apellido = sc.nextLine();
 		
+		return Nombre;
 	}
 	
 }

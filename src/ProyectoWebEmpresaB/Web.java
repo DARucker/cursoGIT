@@ -11,6 +11,7 @@ public class Web {
 		
 		String imprimir = wm.pedirNombre();
 		System.out.println("su nombre es: " + imprimir);
+		System.out.println("-x-x-x-x-x-x-x-");
 	}
 
 }
