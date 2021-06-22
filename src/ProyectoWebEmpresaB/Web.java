@@ -10,7 +10,10 @@ public class Web {
 		WebMain wm = new WebMain();
 		
 		String imprimir = wm.pedirNombre();
+		System.out.println("vamos a imprimir su nombre");
 		System.out.println("su nombre es: " + imprimir);
+		
+		
 		System.out.println("-x-x-x-x-x-x-x-");
 	}
 
