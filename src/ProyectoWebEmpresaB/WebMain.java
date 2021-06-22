@@ -11,7 +11,7 @@ public class WebMain {
 		String Nombre = sc.nextLine();
 		System.out.println("Indique su apellido: ");
 		String Apellido = sc.nextLine();
-		
+		Nombre = Nombre + " " + Apellido;
 		return Nombre;
 	}
 	
